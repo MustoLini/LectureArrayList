@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3156c5a7-d09a-4f0f-89bd-340f4432a09a" name="Changes" comment="Set up the lecture about ArrayList">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestArrayList.java" afterDir="false" />
-    </list>
+    <list default="true" id="3156c5a7-d09a-4f0f-89bd-340f4432a09a" name="Changes" comment="Testing arraylist" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +44,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663749044217</updated>
-      <workItem from="1663749046451" duration="2876000" />
+      <workItem from="1663749046451" duration="3297000" />
     </task>
     <task id="LOCAL-00001" summary="Set up the lecture about ArrayList">
       <created>1663749092791</created>
@@ -63,7 +60,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663749164246</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Testing arraylist">
+      <created>1663752711424</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663752711424</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,6 +86,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Set up the lecture about ArrayList" />
-    <option name="LAST_COMMIT_MESSAGE" value="Set up the lecture about ArrayList" />
+    <MESSAGE value="Testing arraylist" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testing arraylist" />
   </component>
 </project>
