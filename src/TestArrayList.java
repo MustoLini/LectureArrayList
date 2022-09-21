@@ -2,6 +2,7 @@ import java.net.Inet4Address;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
+import java.util.Objects;
 
 public class TestArrayList {
     public static void main(String[] args) {
@@ -34,7 +35,7 @@ public class TestArrayList {
             System.out.println(names.get(i));
         }
         names.subList(0, 2).clear();
-        
+
         if (names.contains("Joe Biden")){
             System.out.println("Joe is here!");
         }
@@ -50,8 +51,16 @@ public class TestArrayList {
 
         nameCopy.addAll(names);
 
+        // Create a generic array object
+        Object[]moreName= new Object[4];
+        moreName= nameCopy.toArray();
+        System.out.println(Arrays.toString(moreName));
 
+        // Checking if it exists.
+         if (nameCopy.containsAll(names)){
+             System.out.println("They exist.");
 
+         }
 
     }
 
