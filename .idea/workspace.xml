@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3156c5a7-d09a-4f0f-89bd-340f4432a09a" name="Changes" comment="Testing arraylist" />
+    <list default="true" id="3156c5a7-d09a-4f0f-89bd-340f4432a09a" name="Changes" comment="Testing arraylist">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestArrayList.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +47,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663749044217</updated>
-      <workItem from="1663749046451" duration="3297000" />
+      <workItem from="1663749046451" duration="3943000" />
     </task>
     <task id="LOCAL-00001" summary="Set up the lecture about ArrayList">
       <created>1663749092791</created>

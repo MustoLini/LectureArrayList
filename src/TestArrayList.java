@@ -25,6 +25,8 @@ public class TestArrayList {
             System.out.println(name);
         }
         System.out.println();
+        names.set(2, "Steve Jobs"); // Sets the index of 2(that is Magdalena) to Steve jobs.
+        names.remove(2); // Removes Steve Jobs from the arraylist and moves all others index forward one index.
 
 
         // It goes through names backwards.
