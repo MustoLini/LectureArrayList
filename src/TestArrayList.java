@@ -21,7 +21,7 @@ public class TestArrayList {
 
 
         // It goes through names the normal way.
-        for (String name: names) {
+        for (String name : names) {
             System.out.println(name);
         }
         System.out.println();
@@ -30,10 +30,25 @@ public class TestArrayList {
 
 
         // It goes through names backwards.
-        for (int i = names.size()-1; i >= 0; i--) {
+        for (int i = names.size() - 1; i >= 0; i--) {
             System.out.println(names.get(i));
         }
+        names.subList(0, 2).clear();
+        
+        if (names.contains("Joe Biden")){
+            System.out.println("Joe is here!");
+        }
 
+        System.out.println();
+        Iterator individualItem = names.iterator();
+        while (individualItem.hasNext()) {
+            System.out.println(individualItem.next());
+        }
+
+        ArrayList nameCopy= new ArrayList();
+        ArrayList nameBackUp = new ArrayList();
+
+        nameCopy.addAll(names);
 
 
 
